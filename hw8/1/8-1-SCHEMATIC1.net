@@ -1,0 +1,13 @@
+* source 8-1
+R_R1         N03715 A  5  
+R_R2         N05324 N03593  10  
+R_R3         C 0  2  
+I_I1         C A DC 3   
+V_V1         N03593 0 50 
+X_H1    N05324 A N03715 0 SCHEMATIC1_H1 
+G_G1         C A C 0 0.25
+
+.subckt SCHEMATIC1_H1 1 2 3 4  
+H_H1         3 4 VH_H1 4
+VH_H1         1 2 0V
+.ends SCHEMATIC1_H1

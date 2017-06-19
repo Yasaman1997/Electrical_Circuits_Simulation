@@ -1,0 +1,9 @@
+* source 8-4
+V_V1         0 B 20Vdc
+R_R1         N00652 N00686  4  
+R_R2         N00686 A  6  
+I_I2         0 N00652 DC 4Adc  
+R_R3         0 N00652  2  
+R_RL         B A  {a}  
+I_I1         N00686 A DC 2Adc  
+.PARAM  a=1k

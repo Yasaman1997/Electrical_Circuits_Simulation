@@ -1,0 +1,74 @@
+
+**** 11/17/16 23:40:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-4-A"  [ D:\A\e, sources\Electrical Circuit\Homeworks\hw8\4\8-4-schematic1-4-a.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "8-4-schematic1-4-a.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of d:\orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\8-4-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING 8-4-SCHEMATIC1.net ****
+* source 8-4
+V_V1         0 B 20Vdc
+R_R1         N00652 N00686  4  
+R_R2         N00686 A  6  
+I_I2         0 N00652 DC 4Adc  
+R_R3         0 N00652  2  
+R_RL         B A  8  
+I_I1         N00686 A DC 2Adc  
+
+**** RESUMING 8-4-schematic1-4-a.sim.cir ****
+.END
+
+**** 11/17/16 23:40:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-4-A"  [ D:\A\e, sources\Electrical Circuit\Homeworks\hw8\4\8-4-schematic1-4-a.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    A)   -4.0000  (    B)  -20.0000  (N00652)    4.0000 (N00686)   -4.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.000E+00
+
+    TOTAL POWER DISSIPATION   4.00E+01  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+
