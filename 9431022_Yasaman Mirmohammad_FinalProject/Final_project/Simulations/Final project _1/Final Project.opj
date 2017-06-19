@@ -1,0 +1,315 @@
+(ExpressProject "Final Project"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File "D:\orcad\Capture\Library\PSpice\Final Project.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (PSPICE_DoNot_Show_WarningDlg "TRUE"))
+  (Folder "Outputs"
+    (File "d:\orcad\capture\library\pspice\final project-schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-1st run.sim"
+        (DisplayName "SCHEMATIC1-1st run")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-1st.sim"
+        (DisplayName "SCHEMATIC1-1st")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-2nd.sim"
+        (DisplayName "SCHEMATIC1-2nd")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-3rd.sim"
+        (DisplayName "SCHEMATIC1-3rd")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-4th.sim"
+        (DisplayName "SCHEMATIC1-4th")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-5th.sim"
+        (DisplayName "SCHEMATIC1-5th")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6th.sim"
+        (DisplayName "SCHEMATIC1-6th")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-7th.sim"
+        (DisplayName "SCHEMATIC1-7th")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-8th.sim"
+        (DisplayName "SCHEMATIC1-8th")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-9th.sim"
+        (DisplayName "SCHEMATIC1-9th")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-10th.sim"
+        (DisplayName "SCHEMATIC1-10th")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-11th.sim"
+        (DisplayName "SCHEMATIC1-11th")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-12th.sim"
+        (DisplayName "SCHEMATIC1-12th")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-13th.sim"
+        (DisplayName "SCHEMATIC1-13th")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-14th.sim"
+        (DisplayName "SCHEMATIC1-14th")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-dc sweep_1.sim"
+        (DisplayName "SCHEMATIC1-Dc sweep_1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-dc sweep _2.sim"
+        (DisplayName "SCHEMATIC1-dc sweep _2")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-3rd dc sweep.sim"
+        (DisplayName "SCHEMATIC1-3rd dc sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-4th dc sweeo.sim"
+        (DisplayName "SCHEMATIC1-4th dc sweeo")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-again number1.sim"
+        (DisplayName "SCHEMATIC1-again number1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-5th dc sweep.sim"
+        (DisplayName "SCHEMATIC1-5th dc sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6th dc sweep.sim"
+        (DisplayName "SCHEMATIC1-6th DC sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6th run.sim"
+        (DisplayName "SCHEMATIC1-6th run")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-7th run dc sweep.sim"
+        (DisplayName "SCHEMATIC1-7th run dc sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-8th run dc sweep.sim"
+        (DisplayName "SCHEMATIC1-8th run dc sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-9th run.sim"
+        (DisplayName "SCHEMATIC1-9th run")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-10th run.sim"
+        (DisplayName "SCHEMATIC1-10th run")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-11th run.sim"
+        (DisplayName "SCHEMATIC1-11th run")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-12th run dc sweep.sim"
+        (DisplayName "SCHEMATIC1-12th run dc sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-13th run .sim"
+        (DisplayName "SCHEMATIC1-13th run ")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-24th run.sim"
+        (DisplayName "SCHEMATIC1-24th run")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-15th run.sim"
+        (DisplayName "SCHEMATIC1-15th run")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-17th run.sim"
+        (DisplayName "SCHEMATIC1-17th run")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-18th run.sim"
+        (DisplayName "SCHEMATIC1-18th run")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-time domain.sim"
+        (DisplayName "SCHEMATIC1-time domain")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-last run of dc sweep .sim"
+        (DisplayName "SCHEMATIC1-last run of dc sweep ")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-dc last.sim"
+        (DisplayName "SCHEMATIC1-dc last")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-last dc sweep run.sim"
+        (DisplayName "SCHEMATIC1-last dc sweep run")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6.sim"
+        (DisplayName "SCHEMATIC1-6")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-2.sim"
+        (DisplayName "SCHEMATIC1-6-2")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-3.sim"
+        (DisplayName "SCHEMATIC1-6-3")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-4.sim"
+        (DisplayName "SCHEMATIC1-6-4")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-5.sim"
+        (DisplayName "SCHEMATIC1-6-5")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-6.sim"
+        (DisplayName "SCHEMATIC1-6-6")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-bias point .sim"
+        (DisplayName "SCHEMATIC1-bias point ")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-7.sim"
+        (DisplayName "SCHEMATIC1-6-7")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-8.sim"
+        (DisplayName "SCHEMATIC1-6-8")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-9.sim"
+        (DisplayName "SCHEMATIC1-6-9")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-10.sim"
+        (DisplayName "SCHEMATIC1-6-10")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-11.sim"
+        (DisplayName "SCHEMATIC1-6-11")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6--12.sim"
+        (DisplayName "SCHEMATIC1-6--12")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-13.sim"
+        (DisplayName "SCHEMATIC1-6-13")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-14.sim"
+        (DisplayName "SCHEMATIC1-6-14")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-15.sim"
+        (DisplayName "SCHEMATIC1-6-15")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-fun.sim"
+        (DisplayName "SCHEMATIC1-fun")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-6-16.sim"
+        (DisplayName "SCHEMATIC1-6-16")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-dc .sim"
+        (DisplayName "SCHEMATIC1-dc ")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\final project-schematic1-2.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\final project-schematic1-2.sim"
+        (DisplayName "SCHEMATIC1-2")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PARAM
+      (FullPartName "PARAM.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (IAC
+      (FullPartName "IAC.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (F
+      (FullPartName "F.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (E
+      (FullPartName "E.Normal")
+      (LibraryName "D:\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\orcad\Capture\Library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\orcad\Capture\Library\PSpice\Final Project.dsn")
+      (Path "Design Resources"
+         "D:\orcad\Capture\Library\PSpice\Final Project.dsn" "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 385"))
+      (Tab 0))))

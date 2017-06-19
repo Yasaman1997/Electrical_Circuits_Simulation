@@ -1,0 +1,48 @@
+
+**** 01/13/17 12:17:46 ********* PSpice 9.2 (Mar 2000) ******** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-last-1"  [ D:\A\e, sources\Electrical Circuit\Project\Final project _1\Final Project-SCHEMATIC1-last-1.sim ]
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Final Project-SCHEMATIC1-last-1.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of d:\orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 1 1meg
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC "..\..\..\..\..\orcad\capture\library\pspice\Final Project-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING "Final Project-SCHEMATIC1.net" ****
+* source FINAL PROJECT
+E_E1         N09662 0 N09308 0 0.33
+C_C1         0 N09308  0.05  
+L_L4         0 N09308  1  
+R_R2         0 N06437  4  
+V_V4         N09308 0 DC 0Vdc AC 6Vac 
+X_F2    N06437 N09662 N09308 0 SCHEMATIC1_F2 
+
+.subckt SCHEMATIC1_F2 1 2 3 4  
+F_F2         3 4 VF_F2 4
+VF_F2         1 2 0V
+.ends SCHEMATIC1_F2
+
+**** RESUMING "Final Project-SCHEMATIC1-last-1.sim.cir" ****
+.END
+
+ERROR -- Voltage source and/or inductor loop involving V_V4
+You may break the loop by adding a series resistance
