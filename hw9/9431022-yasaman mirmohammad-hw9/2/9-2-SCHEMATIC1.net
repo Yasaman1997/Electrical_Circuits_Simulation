@@ -1,0 +1,17 @@
+* source 9-2
+X_U5         B N09187 Sw_tClose PARAMS: tClose=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+R_R1         A N07639  6k  
+R_R2         0 A  10k  
+X_H2    C N05773 C N09187 SCHEMATIC1_H2 
+R_R3         0 C  80k  
+R_R4         N05773 C  20k  
+V_V1         N05773 0 100
+C_C1         0 B  5nF  
+I_I1         0 A DC 8mAdc  
+X_U6         B N07639 Sw_tOpen PARAMS: tOpen=0 ttran=1u Rclosed=0.01 Ropen=1Meg
+
+.subckt SCHEMATIC1_H2 1 2 3 4  
+H_H2         3 4 VH_H2 30000
+VH_H2         1 2 0V
+.ends SCHEMATIC1_H2

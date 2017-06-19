@@ -1,0 +1,99 @@
+
+**** 11/26/16 19:46:18 ********* PSpice 9.2 (Mar 2000) ******** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2nd  run"  [ D:\A\e, sources\Electrical Circuit\Homeworks\hw9\1\9-1-schematic1-2nd  run.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "9-1-schematic1-2nd  run.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of d:\orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\9-1-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING 9-1-SCHEMATIC1.net ****
+* source 9-1
+R_R1         N01192 N00379  6  
+X_U1         N00524 N01192 Sw_tClose PARAMS: tClose=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+R_R2         N01192 N00379  3  
+R_R3         N00379 N00301  4  
+R_R4         0 N00379  6  
+L_L1         0 N00301  2  
+V_V1         N00524 0 108
+
+**** RESUMING "9-1-schematic1-2nd  run.sim.cir" ****
+.END
+
+**** 11/26/16 19:46:18 ********* PSpice 9.2 (Mar 2000) ******** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2nd  run"  [ D:\A\e, sources\Electrical Circuit\Homeworks\hw9\1\9-1-schematic1-2nd  run.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.Smod       
+         RON     .01         
+        ROFF    1.000000E+06 
+         VON    1            
+        VOFF    0            
+
+
+**** 11/26/16 19:46:18 ********* PSpice 9.2 (Mar 2000) ******** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2nd  run"  [ D:\A\e, sources\Electrical Circuit\Homeworks\hw9\1\9-1-schematic1-2nd  run.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00301)    0.0000 (N00379) 259.2E-06 (N00524)  108.0000 (N01192) 475.2E-06     
+
+(X_U1.3)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.080E-04
+    X_U1.V1      0.000E+00
+
+    TOTAL POWER DISSIPATION   1.17E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .09
+

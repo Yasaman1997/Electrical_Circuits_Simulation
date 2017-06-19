@@ -1,0 +1,11 @@
+* source 9-3
+L_L1         N00504 N00534  80m  
+R_R1         0 N00504  15  
+G_G1         N00534 N00561 0 N00534 1
+R_R2         N00561 N00534  1  
+R_R3         N00395 N00561  20  
+X_U2         N00743 N00561 Sw_tClose PARAMS: tClose=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+R_R4         N00743 N00600  5  
+V_V1         N00395 0 480
+V_V2         N00600 0 280
